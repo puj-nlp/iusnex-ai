@@ -218,3 +218,24 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local project settings and secrets
+.idea/
+.env.*
+!.env.example
+
+# Research data and generated artifacts (keep directory placeholders)
+/data/**/*
+!/data/**/
+!/data/**/.gitkeep
+!/data/README.md
+/models/**/*
+!/models/**/
+!/models/**/.gitkeep
+!/models/README.md
+/reports/figures/*
+!/reports/figures/.gitkeep
+/reports/metrics/*
+!/reports/metrics/.gitkeep
+/mlruns/
+/mlartifacts/
