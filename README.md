@@ -3,7 +3,7 @@
 Inteligencia Artificial para el Derecho, la Justicia y la Sociedad.
 
 Boilerplate de sitio estático: HTML, CSS y JavaScript, sin instalación ni compilación.
-El contenido académico se deja como secciones por completar.
+Incluye la identidad visual original, la presentación de la iniciativa, el proyecto de justicia, las seis líneas propuestas, equipo, pilotos, metodología y hoja de ruta.
 
 ## Archivos
 
@@ -19,8 +19,7 @@ El contenido académico se deja como secciones por completar.
 
 ## Editar
 
-Completar las secciones Proyecto, Investigación, Equipo, Alianzas, Resultados,
-Recursos y Contacto en `docs/index.html`. Sustituir el favicon provisional si corresponde.
+Editar el contenido público en `docs/index.html`. La propuesta conceptual y su procedencia se conservan en `references/PROPUESTA_IUSNEX_AI.md`; el logo original está en `references/identity/` y su copia pública en `docs/assets/img/`.
 Usar rutas relativas, como `assets/img/foto.jpg`, para mantener compatibilidad con
 la ruta de proyecto `/iusnex-ai/`.
 
