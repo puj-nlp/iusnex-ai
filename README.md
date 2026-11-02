@@ -53,3 +53,13 @@ Consulta [PUBLICAR.md](PUBLICAR.md) para habilitar GitHub Pages.
 La estructura queda preparada sin imponer todavía librerías de ML ni un gestor
  de dependencias. Los directorios vacíos se conservan con `.gitkeep`.
 Trabajar con Git desde WSL en `/mnt/d/project/javeriana/repos/iusnex-ai`.
+
+## Actualizar estilos
+
+Editar la hoja base en docs/assets/css/styles.css y ejecutar:
+
+    node scripts/version-styles.mjs
+
+El comando genera una URL con la huella del CSS y actualiza el HTML para evitar
+que el navegador combine contenido nuevo con estilos antiguos en caché.
+Versionar también el CSS generado junto con el HTML.
